@@ -6,20 +6,14 @@
     <title>JavaScript SPA Guided Setup</title>
 </head>
 <body style="margin: 40px">
-    <button id="callGraphButton" type="button" class="btn btn-primary" onclick="callGraphApi()">Call Microsoft Graph API</button>
+    <button id="callGraphButton" type="button" class="btn btn-primary" onclick="getPatientData()">Fetch patient data</button>
     <div id="errorMessage" class="text-danger"></div>
+
     <div class="hidden">
         <h3>Graph API Call Response</h3>
         <pre class="well" id="graphResponse"></pre>
     </div>
-    <div class="hidden">
-        <h3>Access Token</h3>
-        <pre class="well" id="accessToken"></pre>
-    </div>
-    <div class="hidden">
-        <h3>ID Token Claims</h3>
-        <pre class="well" id="userInfo"></pre>
-    </div>
+
     <button id="signOutButton" type="button" class="btn btn-primary hidden" onclick="signOut()">Sign out</button>
 
     <!-- This app uses cdn to reference msal.js (recommended).
