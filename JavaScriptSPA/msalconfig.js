@@ -1,4 +1,4 @@
 ﻿var msalconfig = {
-    clientID: "6698d44f-8482-4ad7-bdf1-f8a4980e6888",
+    clientID: "7733fd64-0748-48e3-895d-7b6fc318c24e",
     redirectUri: location.origin
 };
